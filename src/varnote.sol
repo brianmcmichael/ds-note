@@ -11,7 +11,7 @@ contract VarNote {
     ) anonymous;
 
     modifier note {
-        bytes32 num;
+        uint256 num;
         uint256 wad;
 
         assembly {
